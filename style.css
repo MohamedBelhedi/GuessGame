@@ -1,0 +1,170 @@
+
+        body{
+            /* background-color:aqua; */
+            flex-wrap: wrap;
+
+
+        }
+
+        .btn{ 
+            
+        align-items: center;
+        margin: 50px;
+        margin-left:480px;
+        padding:5px;
+
+        
+        
+        
+        }
+
+
+        .btn1{
+
+            width:260px;
+            height: 150px;
+            font-size:30px;
+            border-radius:30px;
+            box-shadow: 5px 5px 6px 8px #888888;
+            cursor: pointer;
+        
+            
+
+
+        }
+
+        .btn1:hover{
+
+            background-color:green;
+            width:50%;
+            /* height:-100%; */
+            transition: width 2s;
+            /* transition: height 2s; */
+
+
+        }
+
+        .ueberschrift
+        {
+
+        align-items: center;
+        
+        margin-left:420px;
+        /* padding:20px; */
+        }
+        .überschrift1{ 
+
+            font-size:100px;
+            color:red;
+            
+
+        
+        
+        
+        }
+
+        .wort{ 
+
+            text-align: center;
+            position: relative;
+            margin-left:100px;
+
+
+
+        }
+
+        .bild{
+            margin-left:100px;
+
+
+
+        }
+
+        .bg{
+            flex-wrap: wrap;
+            justify-content: space-between;
+            border-radius: 20px;
+            width:100px;
+            height:100px;
+            box-shadow: 5px 5px 5px red;
+            margin-left:400px;
+            margin:20px;
+        }
+        .bg-script{
+            font-size: 20px;
+            font-weight: bold;
+            margin-left:400px;
+            margin:20px;
+            
+        }
+
+        @media(max-width:640px) {
+            
+    .btn
+    {
+        align-items: center;
+        margin: 0px;
+        margin-left:20px;
+        padding:5px; 
+    }
+  
+    .ueberschrift{
+        align-items: center;
+        
+        margin-left:50px;
+    }
+    .überschrift1
+    
+    {
+      width: 100%;
+      display:inline-table;
+      align-items:center center;
+
+      position: relative;
+      
+
+    }
+    .wort{
+
+        text-align: center;
+            position: relative;
+            margin-left:20px;
+    }
+
+    .bild1{
+            width:200px;
+           
+            align-items: center;
+            margin-right:300px;
+            position: relative;
+
+
+
+
+        }
+
+    body{
+
+        text-align: center;
+        align-items: center;
+    }
+    .bg{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        border-radius: 20px;
+        width:100px;
+        height:100px;
+        box-shadow: 5px 5px 5px red;
+        margin-left:50px;
+        margin:20px;
+    }
+    .bg-script{
+        font-size: 20px;
+        font-weight: bold;
+        margin-left:50px;
+        margin:20px;
+        
+    }
+}
+
+
