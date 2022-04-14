@@ -112,29 +112,23 @@ break;
 break;
     }
 
-
-    else if(message>RateNummer){
-        wort.innerText='Zu Hoch Tiefer gehen als '+ message
-        wort.style.fontSize="50px"
-        wort.style.marginLeft="200px"
-        wort.style.textAlign="center"
-        wort.style.color="red"
-        wort.style.verticalAlign = "bottom"
-        versuche++
-        wort2.innerText="noch Versuche"+versuche+"von 3" //diese Zeile Code löschen
-        wort2.style.color="yellow"
-        wort2.style.fontSize="20px"
-        wort2.style.position="relative"
-        wort2.style.textAlign="center"
-        wort2.style.marginLeft="200px"
-        wort2.style.fontSize="50px"
-        
-        
-
-
-    }
-    else if(message<RateNummer){
-        wort.innerText='Zu Tief höher gehen als '+ message
+function ergebnis1(){wort.innerText='Zu Hoch Tiefer gehen als '+ message
+wort.style.fontSize="50px"
+wort.style.marginLeft="200px"
+wort.style.textAlign="center"
+wort.style.color="red"
+wort.style.verticalAlign = "bottom"
+versuche++
+wort2.innerText="noch Versuche"+versuche+"von 3" //diese Zeile Code löschen
+wort2.style.color="yellow"
+wort2.style.fontSize="20px"
+wort2.style.position="relative"
+wort2.style.textAlign="center"
+wort2.style.marginLeft="200px"
+wort2.style.fontSize="50px"
+}
+function ergebnis2(){
+    wort.innerText='Zu Tief höher gehen als '+ message
         wort.style.fontSize="50px"
         wort.style.marginLeft="200px"
         wort.style.textAlign="center"
@@ -150,7 +144,17 @@ break;
         wort2.style.position="relative"
         wort2.style.marginLeft="200px"
         wort2.style.fontSize="50px"
-                
+
+}
+     if(message>RateNummer){
+      
+        ergebnis1();
+
+
+    }
+    else if(message<RateNummer){
+        
+              ergebnis2();  
 
 
     }
