@@ -1,4 +1,10 @@
 
+*{
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
         body{
             /* background-color:aqua; */
             flex-wrap: wrap;
@@ -10,7 +16,7 @@
             
         align-items: center;
         margin: 50px;
-        margin-left:480px;
+        /* margin-left:400px; */
         padding:5px;
 
         
@@ -49,7 +55,7 @@
 
         align-items: center;
         
-        margin-left:420px;
+        /* margin-left:120px; */
         /* padding:20px; */
         }
         .überschrift1{ 
