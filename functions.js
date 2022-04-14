@@ -199,6 +199,7 @@ if(message)
 
 };
 
+// buttons Function
 
 let button=document.querySelectorAll("button");
 let body2=document.querySelector("body");
@@ -207,6 +208,8 @@ button.forEach((node) => {
     node.addEventListener("click",stargame)
     button[1].addEventListener("click",quitgame)
 });
+
+// colorVal for change BG
 
 let colorVal=document.querySelector("input")
 
@@ -223,6 +226,27 @@ body2.style.background=colorVal.value
 
 colorVal.addEventListener("input",changBG)
 
+
+// footer Function
+function datenschutz(){
+window.open("https://www.github.com")
+
+}
+function kontakt(){
+    // bald kommen eigene datenschutz Klauseln nur beispiele u, zu gucke ob das funktioniert
+window.open("https://www.google.com")
+
+}
+
+let footer=document.querySelectorAll("footer")
+
+footer.forEach((links)=>{
+
+    links.addEventListener("click",datenschutz)
+    footer[0].addEventListener("click",kontakt)
+
+
+})
 
 
     // message.eval(wort);
